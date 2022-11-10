@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_time_interval_picker">406dp</dimen>
+    <dimen name="height_item_number_picker">48dp</dimen>
+</resources>
