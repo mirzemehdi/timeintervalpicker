@@ -2,6 +2,9 @@
 
 TimeIntervalPicker is a library that helps developers choose the hour and minute intervals from customized dialog which is not possible with MaterialTimePicker.
 
+<img src="sample/src/main/res/drawable/timeintervalpicker.png" alt="screenshot" height="30%" width="25%">"  "
+
+
 ## How to add to your project
 
 First, add the JitPack repository to your project gradle file.  
