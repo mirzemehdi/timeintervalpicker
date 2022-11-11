@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -31,7 +32,23 @@ android {
     buildFeatures {
         viewBinding true
     }
+
 }
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.mmk'
+            artifactId = 'timeintervalpicker'
+            version = '1.0.0'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
+}
+
 
 dependencies {
 
